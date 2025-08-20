@@ -1,0 +1,29 @@
+### POST user baru
+### GET semua user
+GET http://localhost:3000/api/v1/user
+
+### POST user baru
+POST http://localhost:3000/api/v1/user
+Content-Type: application/json
+
+{
+  "username": "Riski",
+  "email": "riski@mail.com",
+  "password": "riskiganteng"
+}
+
+### PATCH user dengan id 1
+
+PATCH http://localhost:3000/api/v1/user/1
+Content-Type: application/json
+
+{
+  "email": "reza.new@example.com"
+}
+
+### DELETE user dengan id 1
+DELETE http://localhost:3000/api/v1//1
+
+DELETE http://localhost:3000/api/v1/daftar/1
+
+
